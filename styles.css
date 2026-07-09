@@ -1,1 +1,143 @@
-/* css styles */
+/* Theme matched to the real moffatluke.com (moffatluke/portfolio repo):
+   light background, emerald green accent, Schibsted Grotesk font. */
+
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --lm-bg: oklch(98% 0.003 262);
+  --lm-bg-raised: oklch(100% 0 0);
+  --lm-ink: oklch(20% 0.015 262);
+  --lm-ink-soft: oklch(38% 0.018 262);
+  --lm-ink-mute: oklch(46% 0.02 262);
+  --lm-line: oklch(90% 0.006 262);
+  --lm-accent: oklch(48% 0.21 155);
+  --lm-accent-bright: oklch(42% 0.21 155);
+  --lm-accent-ink: oklch(99% 0 0);
+  --lm-accent-wash: oklch(95% 0.02 155);
+}
+
+body {
+  background-color: var(--lm-bg) !important;
+  color: var(--lm-ink);
+  font-family: 'Schibsted Grotesk', system-ui, sans-serif;
+}
+
+h1, h2, h3, h4, h5, .title, #title-block-header .title {
+  font-family: 'Schibsted Grotesk', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--lm-ink);
+}
+
+p, li, dd {
+  color: var(--lm-ink-soft);
+}
+
+a {
+  color: var(--lm-accent);
+  font-weight: 600;
+  text-decoration-color: color-mix(in oklab, var(--lm-accent) 45%, transparent);
+}
+a:hover {
+  color: var(--lm-accent-bright);
+}
+
+/* Navbar */
+.navbar {
+  background-color: color-mix(in oklab, var(--lm-bg) 85%, transparent) !important;
+  border-bottom: 1px solid var(--lm-line);
+  backdrop-filter: blur(12px);
+}
+.navbar-title, .navbar-brand {
+  color: var(--lm-ink) !important;
+  font-weight: 800;
+}
+.navbar .nav-link {
+  color: var(--lm-ink-soft) !important;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.navbar .navbar-nav {
+  flex-wrap: nowrap;
+  gap: 0.25rem;
+}
+.navbar .nav-link:hover {
+  color: var(--lm-ink) !important;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--lm-bg-raised) !important;
+  border-right: 1px solid var(--lm-line);
+}
+.sidebar-title {
+  color: var(--lm-ink) !important;
+}
+
+/* Card-style panels used across the site */
+.card, .callout {
+  background-color: var(--lm-bg-raised) !important;
+  border: 1px solid var(--lm-line) !important;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px oklch(30% 0.05 155 / 0.06);
+}
+
+/* CV / resume webaddress bar */
+#webaddress {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+#webaddress a {
+  font-weight: 600;
+}
+
+/* Profile photo — matches the real site's hero-photo treatment:
+   rounded rectangle, not a circle, with a soft emerald shadow */
+.profile-photo {
+  width: 220px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 26%;
+  border-radius: 18px;
+  box-shadow: 0 24px 55px oklch(30% 0.1 155 / 0.28);
+  float: right;
+  margin: 0 0 1rem 1.5rem;
+}
+
+@media (max-width: 700px) {
+  .profile-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem;
+    width: 200px;
+  }
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--lm-accent) !important;
+  border: none !important;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background-color: var(--lm-accent-bright) !important;
+}
+
+/* Footer */
+.page-footer {
+  border-top: 1px solid var(--lm-line) !important;
+  color: var(--lm-ink-mute);
+}
+.page-footer a {
+  color: var(--lm-ink-soft);
+}
+.page-footer a:hover {
+  color: var(--lm-accent-bright);
+}
+
+/* Inline code */
+code {
+  color: var(--lm-accent-bright);
+  background-color: var(--lm-accent-wash);
+}

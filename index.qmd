@@ -1,10 +1,23 @@
 ---
-title: "about me"
-subtitle: "my data science portfolio"
-# use quarto markdown to 
+title: "Luke Moffat"
+subtitle: "Software Developer & Data Science Student"
 ---
 
-# Title 1 Header
-## Title 2 Header
+<img src="Images/luke-hero.jpg" alt="Luke Moffat" class="profile-photo">
 
-[MarkDown Basics](https://quarto.org/docs/authoring/markdown-basics.html#links-images)
+Hi, I'm Luke — a Computer Science student at BYU-Idaho focused on data science and full-stack development. I like taking messy data and turning it into something clear: cleaned-up datasets, honest charts, and tools people actually use.
+
+This site is my data science portfolio. It collects the work I'm most proud of — data cleansing and exploration, storytelling with data, machine learning, and full-stack projects.
+
+## Where to start
+
+- **[My Resume](resume.qmd)** — education, skills, and projects at a glance
+- **[Data Cleansing](cleansing.qmd)** — wrangling raw, messy data into usable shape
+- **[Data Exploration](exploration.qmd)** — digging into datasets to find the story
+- **[Story Telling](story_telling.qmd)** — communicating findings with visuals
+- **[Machine Learning](ml.qmd)** — models and predictions
+- **[Full Stack](full_stack.qmd)** — end-to-end apps built around data
+
+## Elsewhere
+
+You can also find me at [moffatluke.com](https://moffatluke.com) — my main portfolio site with an AI assistant trained on my background — or on [GitHub](https://github.com/moffatluke).
