@@ -1,11 +1,9 @@
 ---
 layout: cv
-title: Luke Moffat's CV
+title: Luke Moffat
+subtitle: Software Developer & Data Science Student
 ---
 <img src="Images/luke-hero.jpg" alt="Luke Moffat" class="profile-photo">
-
-# Luke Moffat
-Software Developer & Data Science Student
 
 <div id="webaddress">
 <a href="https://moffatluke.com">moffatluke.com</a>
@@ -32,8 +30,7 @@ Data cleansing and analysis, building developer tools, and applied machine learn
 
 ## Education
 
-<!-- TODO: confirm your official program name and expected graduation term -->
-`Expected [add graduation term/year]`
+`Expected Winter 2028`
 __BYU-Idaho__ — Software Engineering / Computer Science
 
 Current coursework: Applied Programming, Data Science Programming (Python/Polars), Programming with Data Structures, SQL, Old Testament
