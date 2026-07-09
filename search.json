@@ -317,21 +317,21 @@
   {
     "objectID": "resume.html#currently",
     "href": "resume.html#currently",
-    "title": "Luke Moffat’s CV",
+    "title": "Luke Moffat",
     "section": "Currently",
     "text": "Currently\nStudying Computer Science / Software Engineering at BYU-Idaho, with an emphasis on data science and full-stack development. Recently accepted into Sandbox, BYU-Idaho’s student startup accelerator, starting Fall 2026.\n\nSpecialized in\nSQL and relational databases, full-stack web development (React, Express, Flask), and growing skill in Python data science tooling (Polars, pandas).\n\n\nInterests\nData cleansing and analysis, building developer tools, and applied machine learning."
   },
   {
     "objectID": "resume.html#education",
     "href": "resume.html#education",
-    "title": "Luke Moffat’s CV",
+    "title": "Luke Moffat",
     "section": "Education",
-    "text": "Education\n\nExpected [add graduation term/year] BYU-Idaho — Software Engineering / Computer Science\nCurrent coursework: Applied Programming, Data Science Programming (Python/Polars), Programming with Data Structures, SQL, Old Testament\n\nRelevant coursework: CSE 310 (Applied Programming), CSE 212 (Data Structures), DS 250 (Data Science Programming), ITM 220 (SQL)"
+    "text": "Education\nExpected Winter 2028 BYU-Idaho — Software Engineering / Computer Science\nCurrent coursework: Applied Programming, Data Science Programming (Python/Polars), Programming with Data Structures, SQL, Old Testament\n\nRelevant coursework: CSE 310 (Applied Programming), CSE 212 (Data Structures), DS 250 (Data Science Programming), ITM 220 (SQL)"
   },
   {
     "objectID": "resume.html#projects",
     "href": "resume.html#projects",
-    "title": "Luke Moffat’s CV",
+    "title": "Luke Moffat",
     "section": "Projects",
     "text": "Projects\n2026 Cloud Database CRM — Flask + Firestore finance/CRM dashboard, deployed with a public read-only demo\n2026 Lawn Hunters Admin Panel — Full-stack React + Express admin panel backed by a MySQL database\n2026 Obsidian Dev Tracker — Custom Obsidian plugin visualizing GitHub contributions and Claude Code sessions as heatmaps\n2026 Startup Idea Validator — Sprint project for validating early-stage startup concepts\nSee more on GitHub and the projects section of this site."
   }
